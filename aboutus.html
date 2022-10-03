@@ -1,0 +1,839 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+        About Us
+    </title>
+    <link rel="shortcut icon" href="images/short-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/animate.min.css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/select2.min.css" />
+    <link rel="stylesheet" href="css/select2-bootstrap5.min.css" />
+    <link rel="stylesheet" href="css/slick-animation.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- scroll progess-bar -->
+    <div id="progess">
+        <span id="progess-value"></span>
+    </div>
+    <!-- header -->
+    <header id="main-header">
+        <div class="main-header">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-sm-12">
+                        <nav class="navbar navbar-expand-lg navbar-light p-2">
+                            <a href="#" class="navbar-toggler c-toggler" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <div class="navbar-toggler-icon" data-toggle="collapse">
+                                    <span class="navbar-menu-icon navbar-menu-icon--top"></span>
+                                    <span class="navbar-menu-icon navbar-menu-icon--middle"></span>
+                                    <span class="navbar-menu-icon navbar-menu-icon--bottom"></span>
+                                </div>
+                            </a>
+                            <a href="index.html" class="navbar-brand">
+                                <img src="images/logo.png" class="img-fluid logo" alt="" />
+                            </a>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <div class="menu-main-menu-container">
+                                    <ul id="top-menu" class="navbar-nav ml-auto">
+                                        <li class="menu-item">
+                                            <a href="index.html">Home</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="p-animes.html">Watch</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item"><a href="manga.html">read Manga</a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="aboutus.html" id="active">About Us</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="contact.html">Contact</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="joinus.html">Join Us</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a href="#">category</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item">
+                                                    <a href="#">Action</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">Comedy</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">Adventures</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">Fantasy</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">Romance</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">Horror</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">Sci-Fi</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="#">School</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="menu-item ">
+                                            <i class="fa fa-language"></i>
+                                            <a>English</a>
+                                            <ul class="sub-menu">
+                                                <li class="menu-item" id="language">Japanese(日本語)</li>
+                                                <li class="menu-item" id="language">Korean(한국어)</li>
+                                                <li class="menu-item" id="language">Filipino(Tagalog)</li>
+                                                <li class="menu-item" id="language">Arabic(اَلْعَرَبِيَّةُ)</li>
+                                                <li class="menu-item" id="language">Chinese(汉语/漢語)</li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="mobile-more-menu">
+                                <a href="javascript:void(0);" class="more-toggle" id="dropdownMenuButton"
+                                    data-toggle="more-toggle" aria-haspopup="true" aria-expanded="false">
+                                    <i class="fa fa-ellipsis-h"></i>
+                                </a>
+                                <div class="more-menu" aria-labelledby="dropdownMenuButton">
+                                    <div class="navbar-right position-relative">
+                                        <ul class="d-flex align-items-center justify-content-end list-inline m-0">
+                                            <li>
+                                                <a href="#" class="search-toggle">
+                                                    <i class="fa fa-search"></i>
+                                                </a>
+                                                <div class="search-box iq-search-bar">
+                                                    <form action="#" class="searchbox">
+                                                        <div class="form-group position-relative">
+                                                            <input type="text" class="text search-input font-size-12"
+                                                                placeholder="type here to search..." />
+                                                            <i class="search-link fa fa-search"></i>
+                                                        </div>
+                                                    </form>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <a href="#"
+                                                    class="iq-user-dropdown search-toggle d-flex align-items-center">
+                                                    <img src="images/user/user-icon.jpg"
+                                                        class="img-fluid user-m rounded-circle" alt="" />
+                                                </a>
+                                                <div class="iq-sub-dropdown iq-user-dropdown">
+                                                    <div class="iq-card shadow-none m-0">
+                                                        <div class="iq-card-body p-0 pl-3 pr-3">
+                                                            <a href="#" class="iq-sub-card setting-dropdown">
+                                                                <div class="media align-items-center">
+                                                                    <div class="right-icon">
+                                                                        <i class="fa fa-cog text-primary"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-3">
+                                                                        <h6 class="mb-0">Settings</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <a href="login.html" class="iq-sub-card setting-dropdown">
+                                                                <div class="media align-items-center">
+                                                                    <div class="right-icon">
+                                                                        <i class="fa fa-sign-out text-primary"></i>
+                                                                    </div>
+                                                                    <div class="media-body ml-3">
+                                                                        <h6 class="mb-0">Sign in</h6>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="navbar-right menu-right">
+                                <ul class="d-flex align-items-center list-inline m-0">
+                                    <li class="nav-item nav-icon">
+                                        <a href="#" class="search-toggle device-search">
+                                            <i class="fa fa-search"></i>
+                                        </a>
+                                        <div class="search-box iq-search-bar d-search">
+                                            <form action="#" class="searchbox">
+                                                <div class="form-group position-relative">
+                                                    <input type="text" class="text search-input font-size-12"
+                                                        placeholder="type here to search..." />
+                                                    <i class="search-link fa fa-search"></i>
+                                                </div>
+                                            </form>
+                                        </div>
+                                    </li>
+
+                                    <li class="nav-item nav-icon">
+                                        <a href="#"
+                                            class="iq-user-dropdown search-toggle d-flex align-items-center p-0">
+                                            <img src="images/user/user-icon.jpg" class="img-fluid user-m rounded-circle"
+                                                alt="" />
+                                        </a>
+
+                                        <div class="iq-sub-dropdown iq-user-dropdown">
+                                            <div class="iq-card shadow-none m-0">
+                                                <div class="iq-card-body p-0 pl-3 pr-3">
+                                                    <a href="setting.html" class="iq-sub-card setting-dropdown">
+                                                        <div class="media align-items-center">
+                                                            <div class="right-icon">
+                                                                <i class="fa fa-cog text-primary"></i>
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <h6 class="mb-0">Settings</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                    <a href="login.html" class="iq-sub-card setting-dropdown">
+                                                        <div class="media align-items-center">
+                                                            <div class="right-icon">
+                                                                <i class="fa fa-sign-out text-primary"></i>
+                                                            </div>
+                                                            <div class="media-body ml-3">
+                                                                <h6 class="mb-0">Sign in</h6>
+                                                            </div>
+                                                        </div>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                        <div class="nav-overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="main-content-two">
+        <div id="main" class="container-fluid">
+            <div class="row p-5 parrallax" data-rate="0.2" data-effect="zoom" data-func="custom_show">
+                <h1 class="col-12 text-center mb-3"><img src="images/logo.png" alt=""></h1>
+                <div class="col-12 col-md list_item">
+                    <div class="index">
+                        <div class="index-text">
+                            <h4>About Us</h4>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-body p-0">
+                                Anime.tv is a Free Anime streaming site with zero ads. We let you watch animes
+                                online without having to register or paying, with over thousands anime and
+                                Anime-Series. You can Download full anime from AnimeCloud and watch it later if
+                                you want.
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                                pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                                pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                                pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                                pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                                faucibus.
+                                <div class="btnrd">
+                                    <a href="contact.html">
+                                        <button class="text-uppercase">contact us</button>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="myrow">
+                <div class="mycol" data-rate="0.6" data-effect="slide-up">
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                        lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                        pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                        pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                        pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                        pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                        pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum
+                        pretium lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in
+                        faucibus.
+                    </p>
+                </div>
+            </div>
+            <div class="row p-5" data-func="show_2">
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a href="#termofuse">
+                                    <h3>Term of Use</h3>
+                                </a>
+                            </div>
+                            <div class="card-body p-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">read more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a href="#faq">
+                                    <h3>FAQ</h3>
+                                </a>
+                            </div>
+                            <div class="card-body p-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">read more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a href="#privacypolicy">
+                                    <h3>Privacy-Policy</h3>
+                                </a>
+                            </div>
+                            <div class="card-body p-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">read more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <a href="#termofuse">
+                                    <h3>Term of Use</h3>
+                                </a>
+                            </div>
+                            <div class="card-body p-0">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">read more</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-5" data-rate="0.4" data-effect="flip-x">
+                <h1 class="col-12 text-center mb-3">Business Partners</h1>
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Activision Blizzard</h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <img src="images/partners/pa1.png" alt="">
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">show deails</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Alibaba Group</h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <img src="images/partners/pa2.png" alt="">
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">show details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>Ping An Bank</h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <img src="images/partners/pa3.png" alt="">
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">show details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md list_item">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="card-title">
+                                <h3>V.Fine Music</h3>
+                            </div>
+                            <div class="card-body p-0">
+                                <img src="images/partners/pa4.png" alt="">
+                                <br>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                                lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                                <div class="btnrd">
+                                    <button class="text-uppercase">show details</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-5">
+                <h1 class="col-12 text-center mb-3" data-effect="flip-y">Most Viewed</h1>
+                <div class="col-12 col-md p-2 about-img" data-rate="0.6" data-effect="slide-left">
+                    <div class="img-box">
+                        <img src="images/suggested/01.jpg" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                </div>
+                <div class="col-12 col-md p-2 mx-0 mx-md-5 my-5 my-md-0 about-img" data-rate="0.6"
+                    data-effect="slide-up">
+                    <div class="img-box">
+                        <img src="images/suggested/02.jpeg" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                </div>
+                <div class="col-12 col-md p-2 about-img" data-rate="0.6" data-effect="slide-right">
+                    <div class="img-box">
+                        <img src="images/suggested/03.jpg" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                </div>
+            </div>
+            <!-- blog -->
+            <div class="row p-3" data-rate="0.6" data-effect="slide-left">
+                <h1 class="col-12 text-center mb-3">
+                    Latest Blog</h1>
+                <div class="col-12 col-md p-2 about-img">
+                    <div class="img-box">
+                        <h5>My Top 5 Picks for 2022
+                        </h5>
+                        <strong>Posted on 04/09/22</strong>
+                        <img src="images/blog/blog1.webp" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    <div class="conti-read">
+                        <button>
+                            continue reading ->
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md p-2 mx-0 mx-md-5 my-5 my-md-0 about-img">
+                    <div class="img-box">
+                        <h5>Christmas Day Blog Update</h5>
+                        <strong>Posted on 12/25/21</strong>
+                        <img src="images/blog/blog2.webp" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    <div class="conti-read">
+                        <button>
+                            continue reading ->
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md p-2 about-img">
+                    <div class="img-box">
+                        <h5>Winter 2021 Anime Menu
+                        </h5>
+                        <strong>Posted on 12/25/21</strong>
+                        <img src="images/blog/blog3.jpeg" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    <div class="conti-read">
+                        <button>
+                            continue reading ->
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="row p-3" data-effect="slide-right">
+                <div class="col-12 col-md p-2 about-img">
+                    <div class="img-box">
+                        <h5>2021 Summer + Life Updates</h5>
+                        <strong>Posted on 04/09/21</strong>
+                        <img src="images/blog/blog4.jpg" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    <div class="conti-read">
+                        <button>
+                            continue reading ->
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md p-2 mx-0 mx-md-5 my-5 my-md-0 about-img">
+                    <div class="img-box">
+                        <h5>BL Corner – Mabataki No Aida</h5>
+                        <strong>Posted on 3/21/21</strong>
+                        <img src="images/blog/blog5.webp" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    <div class="conti-read">
+                        <button>
+                            continue reading ->
+                        </button>
+                    </div>
+                </div>
+                <div class="col-12 col-md p-2 about-img">
+                    <div class="img-box">
+                        <h5>The Present and the Future</h5>
+                        <strong>Posted on 12/25/20</strong>
+                        <img src="images/blog/blog6.webp" class="img-fluid" alt="" />
+                    </div>
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam dictum pretium
+                    lorem a tincidunt. Interdum et malesuada fames ac ante ipsum primis in faucibus.
+                    <div class="conti-read">
+                        <button>
+                            continue reading ->
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="popup-div">
+            <div class="content">
+                <a class="closeBtn">+</a>
+                <img src="images/blog/blog4.jpg" class="img-fluid" alt="" />
+                <p>Lorem ipsum dolor sit amet. Et esse earum et molestiae molestias cum exercitationem earum hic
+                    temporibus ducimus vel quia excepturi et deserunt explicabo ut rerum repudiandae. Et mollitia
+                    perspiciatis est officiis fugiat qui expedita suscipit ut itaque quia non consectetur odit est
+                    dolorem blanditiis rem commodi nulla. </p>
+                <p>Qui pariatur debitis eos temporibus quos vel reiciendis molestiae qui sunt repudiandae sed saepe
+                    repudiandae. Et veritatis quam et illum galisum ad voluptate distinctio! </p>
+                <p>Et accusantium perspiciatis qui voluptatum voluptatem a sunt consequatur et doloremque perferendis ut
+                    reprehenderit consectetur ut nisi natus et dicta ipsum. Ab sapiente possimus et voluptate illo sit
+                    dolor soluta a obcaecati asperiores eos assumenda officia ut aperiam perferendis. Qui quia libero
+                    cum similique explicabo rem eius sint aut perspiciatis amet. Aut eaque laboriosam est praesentium
+                    incidunt ex molestiae odio non neque saepe. </p>
+                <p>Lorem ipsum dolor sit amet. Vel velit quibusdam et quis neque ad voluptates dolores ea aspernatur
+                    eius. Rem nobis quod qui perferendis accusantium est esse alias qui rerum tenetur ad illum nobis.
+                    Qui odit velit et ipsum recusandae qui quam molestiae 33 voluptates minus et libero aliquid aut
+                    beatae accusamus rem deleniti officiis. Quia magnam ut exercitationem eius in quos perferendis id
+                    sint laudantium ut eveniet eaque! </p>
+                <img src="images/blog/blog4.jpg" class="img-fluid" alt="" />
+                <p>Ad praesentium nulla At deserunt unde quo amet necessitatibus aut ullam quibusdam! Ut porro
+                    necessitatibus qui quibusdam alias ea accusantium assumenda At excepturi molestiae. Est temporibus
+                    amet id veniam quis et similique ducimus non amet odio qui officia temporibus. </p>
+                <p>Ut magnam iure nobis explicabo quo provident nesciunt et tenetur neque. Ea deleniti autem et quae
+                    corporis qui sapiente voluptatum. Vel repellendus nihil non dolore doloremque et nostrum tenetur aut
+                    sequi quam et quidem pariatur non neque dolorum. Aut consectetur voluptatem vel quod maiores quo
+                    quia similique qui iure dicta non aliquid ipsa et quaerat ipsa. </p>
+                <p>Qui omnis atque At repellat odit ab fugit reiciendis ad sint quis non omnis consectetur. Et eius
+                    labore sed illo possimus et sunt molestiae nam vero esse est officia recusandae ea alias soluta! Ut
+                    enim aliquid eos voluptas sint sit omnis voluptatem ut Quis blanditiis qui excepturi natus hic
+                    consequatur consequatur! </p>
+                <p>Ut consequatur accusantium qui galisum blanditiis est sint pariatur? Eos dolor quia sed repellat
+                    impedit quo praesentium excepturi et doloribus galisum. Et officia fuga non reiciendis corporis qui
+                    porro sunt et eligendi suscipit! </p>
+                <img src="images/blog/blog4.jpg" class="img-fluid" alt="" />
+                <p>Rem nobis quas nam velit porro et sint dolores? Ad voluptatum animi et atque earum est consequatur
+                    blanditiis est consectetur recusandae quo perferendis similique qui distinctio aperiam eos placeat
+                    nesciunt! At similique quia aut consequatur saepe ea consequatur enim sit animi distinctio est
+                    assumenda Quis et voluptas dolores non vero tenetur. </p>
+                <p>Aut beatae enim vel corporis voluptates sit unde ratione qui adipisci sunt? Et voluptate quis sed
+                    dignissimos reiciendis aut veniam obcaecati et voluptatibus nihil eos unde dolorem ea minima eveniet
+                    et corporis fugit. Eos illo architecto est galisum facere in voluptas quasi? </p>
+                <p>Ab eaque accusantium qui quaerat impedit sed aliquam consequuntur ea aspernatur blanditiis 33 itaque
+                    distinctio ab odio modi est voluptates consequatur. Sed voluptas modi non dolore recusandae eos
+                    minus animi sed rerum quod qui laborum. Sed impedit sapiente aut quasi praesentium aut internos
+                    quia. Id animi quibusdam sed doloribus perspiciatis sit sapiente illo qui ipsa consectetur? </p>
+                <p>Ut velit quas et nihil necessitatibus et corrupti quia et nulla itaque aut corrupti laborum aut omnis
+                    praesentium ea possimus nemo. Est distinctio necessitatibus qui quaerat quibusdam est ipsa earum aut
+                    officiis illo est soluta corrupti. Et explicabo eveniet sed ducimus consequuntur aut incidunt nemo.
+                    Rem accusamus pariatur et tempore aperiam ut molestiae consequatur et ullam nemo. </p>
+                <p>Qui ipsam incidunt aut dolores dolore et quia unde qui quam veritatis aut cupiditate ullam sed
+                    voluptatem nesciunt eum vitae ipsam. Et dolorum aperiam quo quod voluptas vel dolor consequatur est
+                    amet exercitationem aut tempora minus eum autem neque et ullam recusandae. </p>
+                <p>Non officia earum et voluptas quasi ea alias esse At dolores accusamus est nesciunt quae sed
+                    aspernatur veritatis. Id enim eveniet sit neque quisquam et nulla architecto ut error totam est quae
+                    facilis id animi consectetur ad omnis voluptate. </p>
+                <p>Ab praesentium laboriosam sed aliquam consequatur eos minus autem. Et perspiciatis aspernatur eum
+                    quae veritatis a voluptatem dicta est reiciendis veniam 33 odio fuga. Aut reiciendis quia qui
+                    deserunt quaerat hic rerum atque id aliquam perferendis sed distinctio dolorem. </p>
+                <p>Aut odit natus aut unde aspernatur quo galisum error et adipisci voluptas qui itaque eveniet. Non
+                    excepturi nostrum sed explicabo accusamus vel atque fuga. Aut deserunt tempora vel voluptates
+                    pariatur sit autem suscipit vel officia ipsum! </p>
+                <img src="images/blog/blog4.jpg" class="img-fluid" alt="" />
+                <p>Ut suscipit maxime et fugiat mollitia sunt suscipit. Eum iure voluptatem non molestiae nesciunt et
+                    asperiores dolores vel odio aliquam. Aut tenetur numquam est perferendis architecto et incidunt quae
+                    aut culpa saepe id culpa minus ea voluptatum necessitatibus et dolor quod. </p>
+                <p>Aut aspernatur quod non quasi amet doloremque quaerat ut maiores odit ut unde itaque. Est labore
+                    repudiandae aut necessitatibus vitae et minima dolorum sit aliquid neque. Sit inventore ipsum est
+                    libero fuga vel natus aspernatur ut aperiam fuga eos nisi recusandae ut incidunt voluptatem sed enim
+                    voluptas. </p>
+                <p>Aut sunt eaque qui unde iste quo sint facere est sunt voluptatum. Rem ratione galisum suscipit
+                    dolorum id quia dolorem qui nesciunt cumque ex accusantium fuga. Et consequatur sunt et sunt
+                    incidunt ut numquam ducimus. </p>
+                <p>Id velit repellat ad consequatur quia praesentium dolorum est incidunt fugiat. Ex dolor quo quasi
+                    nobis ut neque laboriosam aut galisum aliquid. Et voluptatem suscipit in placeat neque ut
+                    repudiandae commodi qui pariatur officia non accusantium dolores. Ut totam itaque ut ullam soluta
+                    sed saepe maxime. </p>
+                <p>Ut eveniet eaque et magni vitae qui dolorum quibusdam. Aut aliquid vitae et fugit veritatis eos
+                    officia iste est labore accusantium ex possimus praesentium 33 labore accusamus. Aut debitis quas ut
+                    nihil internos sed ipsa reprehenderit At repellat ullam quo galisum perspiciatis a nihil neque est
+                    nesciunt error. </p>
+
+            </div>
+        </div>
+        <!-- profile -->
+        <section id="experts">
+            <h1>Company Developer & Owner</h1>
+            <p>Replenish man have thing gathering lights yielding shall you</p>
+
+            <div class="expert-box">
+
+                <div class="profile">
+                    <img src="images/user/pro1.webp" alt="">
+                    <h6>Ema Irnik</h6>
+                    <div class="pro-links">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images/user/pro2.webp" alt="">
+                    <h6>Jason</h6>
+                    <div class="pro-links">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images/user/pro3.webp" alt="">
+                    <h6>Malik</h6>
+                    <div class="pro-links">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </div>
+
+                <div class="profile">
+                    <img src="images/user/pro4.webp" alt="">
+                    <h6>Jennifer</h6>
+                    <div class="pro-links">
+                        <i class="fa fa-facebook"></i>
+                        <i class="fa fa-instagram"></i>
+                        <i class="fa fa-twitter"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="contac">
+            <button class="text-uppercase">
+                <a href="joinus.html">join us</a>
+            </button>
+        </div>
+    </div>
+
+    <!-- footer start -->
+    <footer class="iq-bg-dark">
+        <div class="footer-top mt-4">
+            <div class="container-fluid">
+                <div class="row footer-standard">
+                    <div class="col-lg-5">
+                        <div class="widget text-left">
+                            <div>
+                                <ul class="menu p-0">
+                                    <li>
+                                        <a href="#">Terms of Use</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Privacy-Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">FAQ</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Watch List</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="widget text-left">
+                            <div class="textwidget">
+                                <p>Anime.tv is a Free Anime streaming site with zero ads. We let you watch
+                                    animes online without having to register or paying, with over thousands anime
+                                    and Anime-Series. You can Download full anime from AnimeCloud and watch it later
+                                    if you want.
+                                    <br>
+                                    <b>©</b>
+                                    <strong>
+                                        Copyrights 2022
+                                    </strong>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <h6 class="footer-link-title">
+                            Follow Us:
+                        </h6>
+                        <ul class="info-share">
+                            <li>
+                                <a href="#">
+                                    <i>
+                                        <fa class="fa fa-facebook"></fa>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i>
+                                        <fa class="fa fa-youtube"></fa>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i>
+                                        <fa class="fa fa-instagram"></fa>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+                        <div class="widget text-left">
+                            <div class="textwidget">
+                                <h6 class="footer-link-title">
+                                    <a href="#"><img class="f-logo" src="images/short-icon.png" alt="">
+                                        a.TV Company</a>
+                                </h6>
+                                <div class="d-flex align-items-center">
+                                    <a href="#"><img src="images/footer/01.jpg" alt=""></a>
+                                    <br>
+                                    <a href="#" class="ml-3"><img src="images/footer/02.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <!-- js files -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/jQuery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/materialize-1.0.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/select2.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/slick-animation.min.js"></script>
+
+    <script src="main.js"></script>
+    <script type="text/javascript">
+        $('#main').parallax({
+            mode: 1
+        });
+
+        function custom_show(obj, mode) {
+            obj
+                .children()
+                .addClass('animation animation_' + mode);
+        }
+    </script>
+    <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-36251023-1']);
+        _gaq.push(['_setDomainName', 'jqueryscript.net']);
+        _gaq.push(['_trackPageview']);
+
+        (function () {
+            var ga = document.createElement('script');
+            ga.type = 'text/javascript';
+            ga.async = true;
+            ga.src = (
+                'https:' == document.location.protocol ?
+                'https://ssl' :
+                'http://www'
+            ) + '.google-analytics.com/ga.js';
+            var s = document.getElementsByTagName('script')[0];
+            s
+                .parentNode
+                .insertBefore(ga, s);
+        })();
+    </script>
+</body>
+
+</html>
